@@ -35,6 +35,10 @@ font-style: italic;
 .picture {
     border-radius: 100%;
     border-image: round;
+    padding: 20px 20px;
+    background-color:white;
+    border: black 3px ridge;
+    
 }
 
 .button {
@@ -47,6 +51,7 @@ font-style: italic;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    margin: 35ox;
 }
 .lista1 {
 
@@ -54,37 +59,78 @@ font-style: italic;
     color: black;
     font-weight: bolder;
     text-decoration: none;
-    
+    margin: 35px;
+    padding: 35px;
 }
 
-.lista2 {
+/* .lista2 {
 
     font-size: 25px;
     color: blue;
     font-weight: bold;
-}
+    margin: 35px;
+    padding: 35px;
+} */
 
 .lista3 {
     font-size: 20px;
     color: white;
     font-weight: normal;
+    margin: 35px;
+    padding: 35px;
 }
+.capa {
+  padding: 30px 70px;
+  width: 80%;
+  margin: auto;
+}
+.bloco-capa{
+  width: 40%;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.titulo {
+    text-align: center;
+    color:black
+}
+.skills {
+    margin: 35px;
+    padding: 35px;
+}
+.footer {
+
+    padding: 30px 70px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.footer-esq {
+   float: left;
+}
+
+.footer-dir{
+    float: right;
+}
+
 </style>
 <body>
-  <h1 > Ruan Miguel - Portfolio</h1>
+    <h1 class="titulo"> Ruan Miguel - Portfolio</h1>
+<div class="Capa">
+    <div class="bloco-capa"> 
+        <p><img  class= "picture" src="imagens/75486003_2734885456543366_1452350093154844672_n.jpg" alt="Logo"><br><strong>Minha Foto</strong></p>
+        </img>
+    </div>
+    <div class="bloco-capa">
+        <h1> Quem sou eu </h1>
+        <p > Profissional Triglota com perfil polivalente, formado em Engenharia de produção que engloba o aspectos técnicos e  gerencias com um aprofundamento provido pelos cursos de técnicos em administração, contabilidade e serviços jurídicos, amplamente familiarizado com aspectos tecnológicos, tendo grande competência em uma ampla gama de softwares 
+        e com conhecimentos básicos em programação, reconhecido por aspectos de liderança, organização e comunicação, buscando sempre resultados de maneira continua  e competente </p>
+    </div>
+ </div> 
 
-  <p><img  class= "picture" src="imagens/75486003_2734885456543366_1452350093154844672_n.jpg" alt="Logo"><br><strong>Minha Foto</strong></p>
-
- 
-
-</img>
-  
-  <h1> Quem sou eu </h1>
-
-<p > Profissional Triglota com perfil polivalente, formado em Engenharia de produção que engloba o aspectos técnicos e  gerencias com um aprofundamento provido pelos cursos de técnicos em administração, contabilidade e serviços jurídicos, amplamente familiarizado com aspectos tecnológicos, tendo grande competência em uma ampla gama de softwares 
-  e com conhecimentos básicos em programação, reconhecido por aspectos de liderança, organização e comunicação, buscando sempre resultados de maneira continua  e competente </p>
-
-<h2>Minhas Principais Habilidades </h2>
+<h2 class="skills">Minhas Principais Habilidades </h2>
 
 <ol> <strong>
 
@@ -93,25 +139,28 @@ font-style: italic;
 <li class="lista3"> visao holistica</li>
 
 </strong></ol>
+<div class="footer">
+    <div class="footer-esq">
+        <h2> <i>Minha Foto</i> </h2>
 
-<h2> <i>Minha Foto</i> </h2>
+        <a  class = "button" href ="imagens/75486003_2734885456543366_1452350093154844672_n.jpg" > Minha foto </a>
 
-<a  class = "button" href ="imagens/75486003_2734885456543366_1452350093154844672_n.jpg" > Minha foto </a>
+        </div>
 
+    <div class="footer-dir">
+        <h2>  Site recomendado pra quem gosta de cultura PoP </strong></h2>
+        <h3> <a href = "https://www.omelete.com.br/" target="_blank" >Site de Enterterimento </a></strong></h3>
+
+        <h2> <i>  Indice Para links do Site </i></h2>
+
+        <ul>
+
+        <li><a href ="imagens/75486003_2734885456543366_1452350093154844672_n.jpg">  Minha Foto</a> </li>
+        <li><a href = "https://www.omelete.com.br/"> Site de Enterterimento</a> </li>
+
+        </ul>
+    </div>
+</div>
 </body>
-
-<h2>  Site recomendado pra quem gosta de cultura PoP </strong></h2>
-<h3> <a href = "https://www.omelete.com.br/" target="_blank" >Site de Enterterimento </a></strong></h3>
-
-<h2> <i>  Indice Para links do Site </i></h2>
-
-<ul>
-
-<li><a href ="imagens/75486003_2734885456543366_1452350093154844672_n.jpg">  Minha Foto</a> </li>
-<li><a href = "https://www.omelete.com.br/"> Site de Enterterimento</a> </li>
-
-</ul>
-
-
 
 </html>
